@@ -40,6 +40,8 @@ namespace Library
 
     public class PersonNode : Node<Person>
     {
-        public PersonNode(Person data) : base(data) { }
+        public PersonNode(Person data) : base(data)
+        {
+        }
     }
 }

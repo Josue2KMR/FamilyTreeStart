@@ -10,9 +10,4 @@ public class Person
         this.Name = name;
         this.Age = age;
     }
-
-    public override string ToString()
-    {
-        return $"{Name}, {Age} years old";
-    }
 }
